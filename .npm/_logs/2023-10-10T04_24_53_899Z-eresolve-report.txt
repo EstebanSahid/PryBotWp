@@ -1,0 +1,24 @@
+'Log files:
+/root/.npm/_logs/2023-10-10T04_24_53_899Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: ag-grid-vue@21.2.2
+Found: vue-property-decorator@8.5.1
+node_modules/vue-property-decorator
+  dev vue-property-decorator@"^8.5.1" from the root project
+
+Could not resolve dependency:
+peer vue-property-decorator@"^7.2.0" from ag-grid-vue@21.2.2
+node_modules/ag-grid-vue
+  dev ag-grid-vue@"^21.0.1" from the root project
+
+Conflicting peer dependency: vue-property-decorator@7.3.0
+node_modules/vue-property-decorator
+  peer vue-property-decorator@"^7.2.0" from ag-grid-vue@21.2.2
+  node_modules/ag-grid-vue
+    dev ag-grid-vue@"^21.0.1" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

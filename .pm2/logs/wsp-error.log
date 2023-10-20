@@ -1,0 +1,1080 @@
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:40:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/var/www/wsp/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:40:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/var/www/wsp/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:40:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/var/www/wsp/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+TypeError: Cannot read property 'substring' of undefined
+    at /var/www/wsp/wsp.js:51:30
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at next (/var/www/wsp/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/var/www/wsp/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/var/www/wsp/node_modules/express/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/var/www/wsp/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/var/www/wsp/node_modules/express/lib/router/index.js:323:13)
+    at /var/www/wsp/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/var/www/wsp/node_modules/express/lib/router/index.js:341:12)
+    at next (/var/www/wsp/node_modules/express/lib/router/index.js:275:10)
+    at cors (/var/www/wsp/node_modules/cors/lib/index.js:188:7)
+    at /var/www/wsp/node_modules/cors/lib/index.js:224:17
+Error: Evaluation failed: Error: wid error: invalid wid
+    at e (https://web.whatsapp.com/:2:3883)
+    at new p (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:262754)
+    at Object.l [as createWid] (https://web.whatsapp.com/app.cbf68a6f6847d3e3194a.js:89:268218)
+    at __puppeteer_evaluation_script__:2:53
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:221:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:16)
+    at async Client.sendMessage (/var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:795:28)
+ProtocolError: Could not load body for this request. This might happen if the request is a preflight request.
+    at /var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPResponse.js:136:31
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HTTPResponse.text (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/HTTPResponse.js:148:25)
+    at async /var/www/wsp/node_modules/whatsapp-web.js/src/Client.js:668:44 {
+  originalMessage: ''
+}
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:218:35)
+    at ExecutionContext._evaluateInternal (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:204:50)
+    at ExecutionContext.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:110:27)
+    at DOMWorld.evaluate (/var/www/wsp/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:97:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

@@ -1,0 +1,276 @@
+2023-06-26T11:57:31: PM2 log: ===============================================================================
+2023-06-26T11:57:31: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-06-26T11:57:31: PM2 log: Time                 : Mon Jun 26 2023 11:57:31 GMT-0500 (Ecuador Time)
+2023-06-26T11:57:31: PM2 log: PM2 version          : 5.3.0
+2023-06-26T11:57:31: PM2 log: Node.js version      : 14.21.3
+2023-06-26T11:57:31: PM2 log: Current arch         : x64
+2023-06-26T11:57:31: PM2 log: PM2 home             : /root/.pm2
+2023-06-26T11:57:31: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-06-26T11:57:31: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-06-26T11:57:31: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-06-26T11:57:31: PM2 log: Application log path : /root/.pm2/logs
+2023-06-26T11:57:31: PM2 log: Worker Interval      : 30000
+2023-06-26T11:57:31: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-06-26T11:57:31: PM2 log: Concurrent actions   : 2
+2023-06-26T11:57:31: PM2 log: SIGTERM timeout      : 1600
+2023-06-26T11:57:31: PM2 log: ===============================================================================
+2023-06-26T11:58:27: PM2 log: App [wsp:0] starting in -fork mode-
+2023-06-26T11:58:27: PM2 log: App [wsp:0] online
+2023-06-28T12:07:23: PM2 log: Stopping app:wsp id:0
+2023-06-28T12:07:23: PM2 log: App [wsp:0] exited with code [130] via signal [SIGINT]
+2023-06-28T12:07:23: PM2 log: pid=3982593 msg=process killed
+2023-06-28T12:07:23: PM2 log: PM2 successfully stopped
+2023-06-28T12:07:44: PM2 log: ===============================================================================
+2023-06-28T12:07:44: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-06-28T12:07:44: PM2 log: Time                 : Wed Jun 28 2023 12:07:44 GMT-0500 (Ecuador Time)
+2023-06-28T12:07:44: PM2 log: PM2 version          : 5.3.0
+2023-06-28T12:07:44: PM2 log: Node.js version      : 14.21.3
+2023-06-28T12:07:44: PM2 log: Current arch         : x64
+2023-06-28T12:07:44: PM2 log: PM2 home             : /root/.pm2
+2023-06-28T12:07:44: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-06-28T12:07:44: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-06-28T12:07:44: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-06-28T12:07:44: PM2 log: Application log path : /root/.pm2/logs
+2023-06-28T12:07:44: PM2 log: Worker Interval      : 30000
+2023-06-28T12:07:44: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-06-28T12:07:44: PM2 log: Concurrent actions   : 2
+2023-06-28T12:07:44: PM2 log: SIGTERM timeout      : 1600
+2023-06-28T12:07:44: PM2 log: ===============================================================================
+2023-06-28T12:33:30: PM2 log: App [wsp:0] starting in -fork mode-
+2023-06-28T12:33:30: PM2 log: App [wsp:0] online
+2023-06-28T13:01:28: PM2 log: Stopping app:wsp id:0
+2023-06-28T13:01:28: PM2 log: App [wsp:0] exited with code [130] via signal [SIGINT]
+2023-06-28T13:01:28: PM2 log: pid=4015192 msg=process killed
+2023-06-28T13:01:28: PM2 log: PM2 successfully stopped
+2023-06-28T13:01:45: PM2 log: ===============================================================================
+2023-06-28T13:01:45: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-06-28T13:01:45: PM2 log: Time                 : Wed Jun 28 2023 13:01:45 GMT-0500 (Ecuador Time)
+2023-06-28T13:01:45: PM2 log: PM2 version          : 5.3.0
+2023-06-28T13:01:45: PM2 log: Node.js version      : 14.21.3
+2023-06-28T13:01:45: PM2 log: Current arch         : x64
+2023-06-28T13:01:45: PM2 log: PM2 home             : /root/.pm2
+2023-06-28T13:01:45: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-06-28T13:01:45: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-06-28T13:01:45: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-06-28T13:01:45: PM2 log: Application log path : /root/.pm2/logs
+2023-06-28T13:01:45: PM2 log: Worker Interval      : 30000
+2023-06-28T13:01:45: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-06-28T13:01:45: PM2 log: Concurrent actions   : 2
+2023-06-28T13:01:45: PM2 log: SIGTERM timeout      : 1600
+2023-06-28T13:01:45: PM2 log: ===============================================================================
+2023-06-28T13:07:02: PM2 log: App [wsp:0] starting in -fork mode-
+2023-06-28T13:07:02: PM2 log: App [wsp:0] online
+2023-06-29T10:58:36: PM2 log: Stopping app:wsp id:0
+2023-06-29T10:58:36: PM2 log: App [wsp:0] exited with code [130] via signal [SIGINT]
+2023-06-29T10:58:36: PM2 log: pid=4015652 msg=process killed
+2023-06-29T10:58:36: PM2 log: PM2 successfully stopped
+2023-06-29T10:58:44: PM2 log: ===============================================================================
+2023-06-29T10:58:44: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-06-29T10:58:44: PM2 log: Time                 : Thu Jun 29 2023 10:58:44 GMT-0500 (Ecuador Time)
+2023-06-29T10:58:44: PM2 log: PM2 version          : 5.3.0
+2023-06-29T10:58:44: PM2 log: Node.js version      : 14.21.3
+2023-06-29T10:58:44: PM2 log: Current arch         : x64
+2023-06-29T10:58:44: PM2 log: PM2 home             : /root/.pm2
+2023-06-29T10:58:44: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-06-29T10:58:44: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-06-29T10:58:44: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-06-29T10:58:44: PM2 log: Application log path : /root/.pm2/logs
+2023-06-29T10:58:44: PM2 log: Worker Interval      : 30000
+2023-06-29T10:58:44: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-06-29T10:58:44: PM2 log: Concurrent actions   : 2
+2023-06-29T10:58:44: PM2 log: SIGTERM timeout      : 1600
+2023-06-29T10:58:44: PM2 log: ===============================================================================
+2023-06-29T11:02:34: PM2 log: App [wsp:0] starting in -fork mode-
+2023-06-29T11:02:34: PM2 log: App [wsp:0] online
+2023-06-30T17:35:19: PM2 log: Stopping app:wsp id:0
+2023-06-30T17:35:19: PM2 log: App [wsp:0] exited with code [130] via signal [SIGINT]
+2023-06-30T17:35:19: PM2 log: pid=4027999 msg=process killed
+2023-06-30T17:35:20: PM2 log: PM2 successfully stopped
+2023-06-30T17:35:57: PM2 log: ===============================================================================
+2023-06-30T17:35:57: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-06-30T17:35:57: PM2 log: Time                 : Fri Jun 30 2023 17:35:57 GMT-0500 (Ecuador Time)
+2023-06-30T17:35:57: PM2 log: PM2 version          : 5.3.0
+2023-06-30T17:35:57: PM2 log: Node.js version      : 14.21.3
+2023-06-30T17:35:57: PM2 log: Current arch         : x64
+2023-06-30T17:35:57: PM2 log: PM2 home             : /root/.pm2
+2023-06-30T17:35:57: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-06-30T17:35:57: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-06-30T17:35:57: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-06-30T17:35:57: PM2 log: Application log path : /root/.pm2/logs
+2023-06-30T17:35:57: PM2 log: Worker Interval      : 30000
+2023-06-30T17:35:57: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-06-30T17:35:57: PM2 log: Concurrent actions   : 2
+2023-06-30T17:35:57: PM2 log: SIGTERM timeout      : 1600
+2023-06-30T17:35:57: PM2 log: ===============================================================================
+2023-06-30T17:35:57: PM2 log: App [wsp:0] starting in -fork mode-
+2023-06-30T17:35:57: PM2 log: App [wsp:0] online
+2023-06-30T17:54:15: PM2 log: Stopping app:wsp id:0
+2023-06-30T17:54:15: PM2 log: App [wsp:0] exited with code [130] via signal [SIGINT]
+2023-06-30T17:54:15: PM2 log: pid=4046228 msg=process killed
+2023-06-30T17:54:15: PM2 log: PM2 successfully stopped
+2023-06-30T17:54:24: PM2 log: ===============================================================================
+2023-06-30T17:54:24: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-06-30T17:54:24: PM2 log: Time                 : Fri Jun 30 2023 17:54:24 GMT-0500 (Ecuador Time)
+2023-06-30T17:54:24: PM2 log: PM2 version          : 5.3.0
+2023-06-30T17:54:24: PM2 log: Node.js version      : 14.21.3
+2023-06-30T17:54:24: PM2 log: Current arch         : x64
+2023-06-30T17:54:24: PM2 log: PM2 home             : /root/.pm2
+2023-06-30T17:54:24: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-06-30T17:54:24: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-06-30T17:54:24: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-06-30T17:54:24: PM2 log: Application log path : /root/.pm2/logs
+2023-06-30T17:54:24: PM2 log: Worker Interval      : 30000
+2023-06-30T17:54:24: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-06-30T17:54:24: PM2 log: Concurrent actions   : 2
+2023-06-30T17:54:24: PM2 log: SIGTERM timeout      : 1600
+2023-06-30T17:54:24: PM2 log: ===============================================================================
+2023-06-30T17:54:24: PM2 log: App [wsp:0] starting in -fork mode-
+2023-06-30T17:54:24: PM2 log: App [wsp:0] online
+2023-07-13T23:29:11: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2023-07-13T23:29:11: PM2 log: Deleting process 0
+2023-07-13T23:29:11: PM2 log: Stopping app:wsp id:0
+2023-07-13T23:29:11: PM2 log: App [wsp:0] exited with code [0] via signal [SIGHUP]
+2023-07-13T23:29:11: PM2 log: pid=4046586 msg=process killed
+2023-07-13T23:29:11: PM2 log: Exited peacefully
+2023-07-14T14:54:23: PM2 log: ===============================================================================
+2023-07-14T14:54:23: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-07-14T14:54:23: PM2 log: Time                 : Fri Jul 14 2023 14:54:23 GMT-0500 (Ecuador Time)
+2023-07-14T14:54:23: PM2 log: PM2 version          : 5.3.0
+2023-07-14T14:54:23: PM2 log: Node.js version      : 14.21.3
+2023-07-14T14:54:23: PM2 log: Current arch         : x64
+2023-07-14T14:54:23: PM2 log: PM2 home             : /root/.pm2
+2023-07-14T14:54:23: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-07-14T14:54:23: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-07-14T14:54:23: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-07-14T14:54:23: PM2 log: Application log path : /root/.pm2/logs
+2023-07-14T14:54:23: PM2 log: Worker Interval      : 30000
+2023-07-14T14:54:23: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-07-14T14:54:23: PM2 log: Concurrent actions   : 2
+2023-07-14T14:54:23: PM2 log: SIGTERM timeout      : 1600
+2023-07-14T14:54:23: PM2 log: ===============================================================================
+2023-07-14T14:54:23: PM2 log: App [wsp:0] starting in -fork mode-
+2023-07-14T14:54:23: PM2 log: App [wsp:0] online
+2023-09-19T16:28:13: PM2 log: Stopping app:wsp id:0
+2023-09-19T16:28:13: PM2 log: App [wsp:0] exited with code [0] via signal [SIGINT]
+2023-09-19T16:28:13: PM2 log: pid=19934 msg=process killed
+2023-09-19T16:28:13: PM2 log: PM2 successfully stopped
+2023-09-19T17:42:08: PM2 log: ===============================================================================
+2023-09-19T17:42:08: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2023-09-19T17:42:08: PM2 log: Time                 : Tue Sep 19 2023 17:42:08 GMT-0500 (Ecuador Time)
+2023-09-19T17:42:08: PM2 log: PM2 version          : 5.3.0
+2023-09-19T17:42:08: PM2 log: Node.js version      : 14.21.3
+2023-09-19T17:42:08: PM2 log: Current arch         : x64
+2023-09-19T17:42:08: PM2 log: PM2 home             : /root/.pm2
+2023-09-19T17:42:08: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2023-09-19T17:42:08: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2023-09-19T17:42:08: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2023-09-19T17:42:08: PM2 log: Application log path : /root/.pm2/logs
+2023-09-19T17:42:08: PM2 log: Worker Interval      : 30000
+2023-09-19T17:42:08: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2023-09-19T17:42:08: PM2 log: Concurrent actions   : 2
+2023-09-19T17:42:08: PM2 log: SIGTERM timeout      : 1600
+2023-09-19T17:42:08: PM2 log: ===============================================================================
+2023-09-19T17:42:08: PM2 log: App [wsp:0] starting in -fork mode-
+2023-09-19T17:42:08: PM2 log: App [wsp:0] online
+2023-10-18T10:36:50: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:50: PM2 log: App [botWp:1] online
+2023-10-18T10:36:51: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:51: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:51: PM2 log: App [botWp:1] online
+2023-10-18T10:36:51: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:51: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:51: PM2 log: App [botWp:1] online
+2023-10-18T10:36:52: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:52: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:52: PM2 log: App [botWp:1] online
+2023-10-18T10:36:52: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:52: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:52: PM2 log: App [botWp:1] online
+2023-10-18T10:36:53: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:53: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:53: PM2 log: App [botWp:1] online
+2023-10-18T10:36:53: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:53: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:53: PM2 log: App [botWp:1] online
+2023-10-18T10:36:54: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:54: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:54: PM2 log: App [botWp:1] online
+2023-10-18T10:36:54: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:54: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:54: PM2 log: App [botWp:1] online
+2023-10-18T10:36:55: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:55: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:55: PM2 log: App [botWp:1] online
+2023-10-18T10:36:55: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:55: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:55: PM2 log: App [botWp:1] online
+2023-10-18T10:36:56: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:56: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:56: PM2 log: App [botWp:1] online
+2023-10-18T10:36:56: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:56: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:56: PM2 log: App [botWp:1] online
+2023-10-18T10:36:57: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:57: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:57: PM2 log: App [botWp:1] online
+2023-10-18T10:36:57: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:57: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:57: PM2 log: App [botWp:1] online
+2023-10-18T10:36:58: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:58: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:58: PM2 log: App [botWp:1] online
+2023-10-18T10:36:58: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:58: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T10:36:58: PM2 log: App [botWp:1] online
+2023-10-18T10:36:59: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T10:36:59: PM2 log: Script /var/www/solmocontadores.app/botWp.js had too many unstable restarts (16). Stopped. "errored"
+2023-10-18T10:36:59: PM2 error: Cancelling versioning data parsing
+2023-10-18T11:07:54: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:54: PM2 log: App [botWp:1] online
+2023-10-18T11:07:54: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:54: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:54: PM2 log: App [botWp:1] online
+2023-10-18T11:07:55: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:55: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:55: PM2 log: App [botWp:1] online
+2023-10-18T11:07:55: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:55: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:55: PM2 log: App [botWp:1] online
+2023-10-18T11:07:55: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:55: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:55: PM2 log: App [botWp:1] online
+2023-10-18T11:07:56: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:56: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:56: PM2 log: App [botWp:1] online
+2023-10-18T11:07:56: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:56: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:56: PM2 log: App [botWp:1] online
+2023-10-18T11:07:56: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:56: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:56: PM2 log: App [botWp:1] online
+2023-10-18T11:07:56: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:56: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:56: PM2 log: App [botWp:1] online
+2023-10-18T11:07:57: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:57: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:57: PM2 log: App [botWp:1] online
+2023-10-18T11:07:57: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:57: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:57: PM2 log: App [botWp:1] online
+2023-10-18T11:07:57: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:57: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:57: PM2 log: App [botWp:1] online
+2023-10-18T11:07:58: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:58: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:58: PM2 log: App [botWp:1] online
+2023-10-18T11:07:58: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:58: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:58: PM2 log: App [botWp:1] online
+2023-10-18T11:07:58: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:58: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:58: PM2 log: App [botWp:1] online
+2023-10-18T11:07:59: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:59: PM2 log: App [botWp:1] starting in -fork mode-
+2023-10-18T11:07:59: PM2 log: App [botWp:1] online
+2023-10-18T11:07:59: PM2 log: App [botWp:1] exited with code [1] via signal [SIGINT]
+2023-10-18T11:07:59: PM2 log: Script /var/www/solmocontadores.app/botWp.js had too many unstable restarts (16). Stopped. "errored"

@@ -1,0 +1,147 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.8.1
+2 info using node@v16.20.2
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/var/www/solmocontadores.app/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 15ms
+11 timing config:load:file:/root/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 30ms
+17 timing npm:load:configload Completed in 30ms
+18 timing config:load:flatten Completed in 5ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install
+22 verbose argv "install"
+23 timing npm:load:setTitle Completed in 2ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/root/.npm/_logs/2023-10-18T16_06_29_704Z-
+26 verbose logfile /root/.npm/_logs/2023-10-18T16_06_29_704Z-debug-0.log
+27 timing npm:load:logFile Completed in 17ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 90ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 verbose shrinkwrap failed to load package-lock.json JSONParseError: Unexpected token "," (0x2C) in JSON at position 374 while parsing near "...          }        },        \"node_modul..."
+34 verbose shrinkwrap     at parseConflictJSON (/usr/lib/node_modules/npm/node_modules/parse-conflict-json/lib/index.js:67:18)
+34 verbose shrinkwrap     at /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/shrinkwrap.js:448:21
+34 verbose shrinkwrap     at async Arborist.loadVirtual (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/load-virtual.js:45:15)
+34 verbose shrinkwrap     at async Arborist.buildIdealTree (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:193:7)
+34 verbose shrinkwrap     at async Promise.all (index 1)
+34 verbose shrinkwrap     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:159:5)
+34 verbose shrinkwrap     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:149:5)
+34 verbose shrinkwrap     at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5) {
+34 verbose shrinkwrap   position: 374,
+34 verbose shrinkwrap   code: 'EJSONPARSE',
+34 verbose shrinkwrap   systemError: SyntaxError: Unexpected token , in JSON at position 374
+34 verbose shrinkwrap       at JSON.parse (<anonymous>)
+34 verbose shrinkwrap       at parseJson (/usr/lib/node_modules/npm/node_modules/json-parse-even-better-errors/lib/index.js:94:25)
+34 verbose shrinkwrap       at parseConflictJSON (/usr/lib/node_modules/npm/node_modules/parse-conflict-json/lib/index.js:67:18)
+34 verbose shrinkwrap       at /usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/shrinkwrap.js:448:21
+34 verbose shrinkwrap       at async Arborist.loadVirtual (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/load-virtual.js:45:15)
+34 verbose shrinkwrap       at async Arborist.buildIdealTree (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:193:7)
+34 verbose shrinkwrap       at async Promise.all (index 1)
+34 verbose shrinkwrap       at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:159:5)
+34 verbose shrinkwrap       at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:149:5)
+34 verbose shrinkwrap       at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5)
+34 verbose shrinkwrap }
+35 timing arborist:ctor Completed in 0ms
+36 timing arborist:ctor Completed in 0ms
+37 timing arborist:ctor Completed in 0ms
+38 timing idealTree:init Completed in 4497ms
+39 timing idealTree:userRequests Completed in 1ms
+40 silly idealTree buildDeps
+41 silly fetch manifest cors@^2.8.5
+42 http fetch GET 200 https://registry.npmjs.org/cors 127ms (cache miss)
+43 silly fetch manifest qrcode-terminal@^0.12.0
+44 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 34ms (cache miss)
+45 silly fetch manifest whatsapp-web.js@^1.22.1
+46 http fetch GET 200 https://registry.npmjs.org/whatsapp-web.js 73ms (cache miss)
+47 silly fetch manifest cross-env@^7.0.3
+48 http fetch GET 200 https://registry.npmjs.org/cross-env 50ms (cache revalidated)
+49 silly placeDep ROOT cors@2.8.5 OK for:  want: ^2.8.5
+50 silly placeDep ROOT cross-env@7.0.3 OK for:  want: ^7.0.3
+51 silly fetch manifest cross-spawn@^7.0.1
+52 silly placeDep ROOT qrcode-terminal@0.12.0 OK for:  want: ^0.12.0
+53 silly placeDep ROOT whatsapp-web.js@1.22.1 OK for:  want: ^1.22.1
+54 silly fetch manifest @pedroslopez/moduleraid@^5.0.2
+55 silly fetch manifest fluent-ffmpeg@^2.1.2
+56 silly fetch manifest jsqr@^1.3.1
+57 silly fetch manifest mime@^3.0.0
+58 silly fetch manifest node-webpmux@^3.1.0
+59 silly fetch manifest puppeteer@^13.0.0
+60 silly fetch manifest archiver@^5.3.1
+61 silly fetch manifest fs-extra@^10.1.0
+62 silly fetch manifest unzipper@^0.10.11
+63 http fetch GET 200 https://registry.npmjs.org/fs-extra 116ms (cache revalidated)
+64 http fetch GET 200 https://registry.npmjs.org/cross-spawn 135ms (cache revalidated)
+65 http fetch GET 200 https://registry.npmjs.org/mime 125ms (cache revalidated)
+66 http fetch GET 200 https://registry.npmjs.org/unzipper 133ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/archiver 135ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/puppeteer 167ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/node-webpmux 257ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/jsqr 761ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/fluent-ffmpeg 764ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/@pedroslopez%2fmoduleraid 1473ms (cache miss)
+73 timing idealTree:#root Completed in 1828ms
+74 silly fetch manifest vue-property-decorator@^7.2.0
+75 http fetch GET 200 https://registry.npmjs.org/vue-property-decorator 736ms (cache revalidated)
+76 timing idealTree Completed in 7079ms
+77 timing command:install Completed in 7102ms
+78 verbose stack Error: could not resolve
+78 verbose stack     at PlaceDep.failPeerConflict (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+78 verbose stack     at new PlaceDep (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+78 verbose stack     at Arborist.#buildDepStep (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:933:18)
+78 verbose stack     at async Arborist.buildIdealTree (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:196:7)
+78 verbose stack     at async Promise.all (index 1)
+78 verbose stack     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:159:5)
+78 verbose stack     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:149:5)
+78 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5)
+79 verbose cwd /var/www/solmocontadores.app
+80 verbose Linux 5.4.0-121-generic
+81 verbose node v16.20.2
+82 verbose npm  v9.8.1
+83 error code ERESOLVE
+84 error ERESOLVE could not resolve
+85 error
+86 error While resolving: [1mag-grid-vue[22m@[1m21.2.2[22m
+86 error Found: [1mvue-property-decorator[22m@[1m8.5.1[22m[2m[22m
+86 error [2mnode_modules/vue-property-decorator[22m
+86 error   [33mdev[39m [1mvue-property-decorator[22m@"[1m^8.5.1[22m" from the root project
+86 error
+86 error Could not resolve dependency:
+86 error [35mpeer[39m [1mvue-property-decorator[22m@"[1m^7.2.0[22m" from [1mag-grid-vue[22m@[1m21.2.2[22m[2m[22m
+86 error [2mnode_modules/ag-grid-vue[22m
+86 error   [33mdev[39m [1mag-grid-vue[22m@"[1m^21.0.1[22m" from the root project
+86 error
+86 error Conflicting peer dependency: [1mvue-property-decorator[22m@[1m7.3.0[22m[2m[22m
+86 error [2mnode_modules/vue-property-decorator[22m
+86 error   [35mpeer[39m [1mvue-property-decorator[22m@"[1m^7.2.0[22m" from [1mag-grid-vue[22m@[1m21.2.2[22m[2m[22m
+86 error   [2mnode_modules/ag-grid-vue[22m
+86 error     [33mdev[39m [1mag-grid-vue[22m@"[1m^21.0.1[22m" from the root project
+86 error
+86 error Fix the upstream dependency conflict, or retry
+86 error this command with --force or --legacy-peer-deps
+86 error to accept an incorrect (and potentially broken) dependency resolution.
+87 error
+87 error
+87 error For a full report see:
+87 error /root/.npm/_logs/2023-10-18T16_06_29_704Z-eresolve-report.txt
+88 verbose exit 1
+89 timing npm Completed in 7524ms
+90 verbose unfinished npm timer reify 1697645190121
+91 verbose unfinished npm timer reify:loadTrees 1697645190136
+92 verbose unfinished npm timer idealTree:buildDeps 1697645194636
+93 verbose unfinished npm timer idealTree:node_modules/ag-grid-vue 1697645196466
+94 verbose code 1
+95 error A complete log of this run can be found in: /root/.npm/_logs/2023-10-18T16_06_29_704Z-debug-0.log

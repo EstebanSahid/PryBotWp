@@ -1,0 +1,120 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.8.1
+2 info using node@v16.20.2
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/var/www/solmocontadores.app/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 17ms
+11 timing config:load:file:/root/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 28ms
+17 timing npm:load:configload Completed in 28ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install
+22 verbose argv "install"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/root/.npm/_logs/2023-10-10T04_24_53_899Z-
+26 verbose logfile /root/.npm/_logs/2023-10-10T04_24_53_899Z-debug-0.log
+27 timing npm:load:logFile Completed in 12ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 68ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 1810ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 timing idealTree:#root Completed in 0ms
+37 silly fetch manifest @vue/compiler-sfc@^3.0.0-beta.14
+38 timing arborist:ctor Completed in 0ms
+39 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-sfc 1260ms (cache revalidated)
+40 silly placeDep ROOT @vue/compiler-sfc@3.3.4 REPLACE for: @vue/cli-service@4.5.19 want: ^3.0.0-beta.14
+41 silly fetch manifest @vue/compiler-core@3.3.4
+42 silly fetch manifest @vue/compiler-dom@3.3.4
+43 silly fetch manifest @vue/compiler-ssr@3.3.4
+44 silly fetch manifest @vue/reactivity-transform@3.3.4
+45 silly fetch manifest @vue/shared@3.3.4
+46 silly fetch manifest estree-walker@^2.0.2
+47 silly fetch manifest magic-string@^0.30.0
+48 http fetch GET 200 https://registry.npmjs.org/estree-walker 121ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/@vue%2freactivity-transform 136ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/magic-string 139ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@vue%2fshared 155ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-core 161ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-ssr 162ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-dom 168ms (cache miss)
+55 timing idealTree:node_modules/@vue/cli-service Completed in 1470ms
+56 silly placeDep ROOT @vue/compiler-core@3.3.4 OK for: @vue/compiler-sfc@3.3.4 want: 3.3.4
+57 silly placeDep ROOT @vue/compiler-dom@3.3.4 OK for: @vue/compiler-sfc@3.3.4 want: 3.3.4
+58 silly placeDep ROOT @vue/compiler-ssr@3.3.4 OK for: @vue/compiler-sfc@3.3.4 want: 3.3.4
+59 silly placeDep ROOT @vue/reactivity-transform@3.3.4 OK for: @vue/compiler-sfc@3.3.4 want: 3.3.4
+60 silly placeDep ROOT @vue/shared@3.3.4 OK for: @vue/compiler-sfc@3.3.4 want: 3.3.4
+61 silly placeDep ROOT estree-walker@2.0.2 OK for: @vue/compiler-sfc@3.3.4 want: ^2.0.2
+62 silly placeDep ROOT magic-string@0.30.4 OK for: @vue/compiler-sfc@3.3.4 want: ^0.30.0
+63 timing idealTree:node_modules/@vue/compiler-sfc Completed in 46ms
+64 timing idealTree:node_modules/@vue/compiler-core Completed in 0ms
+65 timing idealTree:node_modules/@vue/compiler-dom Completed in 1ms
+66 timing idealTree:node_modules/@vue/compiler-ssr Completed in 0ms
+67 timing idealTree:node_modules/@vue/reactivity-transform Completed in 0ms
+68 timing idealTree:node_modules/@vue/shared Completed in 0ms
+69 silly fetch manifest vue-property-decorator@^7.2.0
+70 http fetch GET 200 https://registry.npmjs.org/vue-property-decorator 227ms (cache revalidated)
+71 timing idealTree Completed in 3571ms
+72 timing command:install Completed in 3586ms
+73 verbose stack Error: could not resolve
+73 verbose stack     at PlaceDep.failPeerConflict (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+73 verbose stack     at new PlaceDep (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+73 verbose stack     at Arborist.#buildDepStep (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:933:18)
+73 verbose stack     at async Arborist.buildIdealTree (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:196:7)
+73 verbose stack     at async Promise.all (index 1)
+73 verbose stack     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:159:5)
+73 verbose stack     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:149:5)
+73 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5)
+74 verbose cwd /var/www/solmocontadores.app
+75 verbose Linux 5.4.0-121-generic
+76 verbose node v16.20.2
+77 verbose npm  v9.8.1
+78 error code ERESOLVE
+79 error ERESOLVE could not resolve
+80 error
+81 error While resolving: [1mag-grid-vue[22m@[1m21.2.2[22m
+81 error Found: [1mvue-property-decorator[22m@[1m8.5.1[22m[2m[22m
+81 error [2mnode_modules/vue-property-decorator[22m
+81 error   [33mdev[39m [1mvue-property-decorator[22m@"[1m^8.5.1[22m" from the root project
+81 error
+81 error Could not resolve dependency:
+81 error [35mpeer[39m [1mvue-property-decorator[22m@"[1m^7.2.0[22m" from [1mag-grid-vue[22m@[1m21.2.2[22m[2m[22m
+81 error [2mnode_modules/ag-grid-vue[22m
+81 error   [33mdev[39m [1mag-grid-vue[22m@"[1m^21.0.1[22m" from the root project
+81 error
+81 error Conflicting peer dependency: [1mvue-property-decorator[22m@[1m7.3.0[22m[2m[22m
+81 error [2mnode_modules/vue-property-decorator[22m
+81 error   [35mpeer[39m [1mvue-property-decorator[22m@"[1m^7.2.0[22m" from [1mag-grid-vue[22m@[1m21.2.2[22m[2m[22m
+81 error   [2mnode_modules/ag-grid-vue[22m
+81 error     [33mdev[39m [1mag-grid-vue[22m@"[1m^21.0.1[22m" from the root project
+81 error
+81 error Fix the upstream dependency conflict, or retry
+81 error this command with --force or --legacy-peer-deps
+81 error to accept an incorrect (and potentially broken) dependency resolution.
+82 error
+82 error
+82 error For a full report see:
+82 error /root/.npm/_logs/2023-10-10T04_24_53_899Z-eresolve-report.txt
+83 verbose exit 1
+84 timing npm Completed in 3866ms
+85 verbose unfinished npm timer reify 1696911894175
+86 verbose unfinished npm timer reify:loadTrees 1696911894184
+87 verbose unfinished npm timer idealTree:buildDeps 1696911895997
+88 verbose unfinished npm timer idealTree:node_modules/ag-grid-vue 1696911897516
+89 verbose code 1
+90 error A complete log of this run can be found in: /root/.npm/_logs/2023-10-10T04_24_53_899Z-debug-0.log

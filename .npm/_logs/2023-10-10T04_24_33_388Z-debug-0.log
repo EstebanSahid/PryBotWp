@@ -1,0 +1,118 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.8.1
+2 info using node@v16.20.2
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/root/.npmrc Completed in 2ms
+11 timing config:load:user Completed in 2ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 4ms
+13 timing config:load:global Completed in 4ms
+14 timing config:load:setEnvs Completed in 2ms
+15 timing config:load Completed in 18ms
+16 timing npm:load:configload Completed in 18ms
+17 timing config:load:flatten Completed in 2ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install cross-env@5.2.1
+21 verbose argv "install" "--global" "cross-env@5.2.1" "--unsafe-perm" "true" "--allow-root"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/root/.npm/_logs/2023-10-10T04_24_33_388Z-
+25 verbose logfile /root/.npm/_logs/2023-10-10T04_24_33_388Z-debug-0.log
+26 timing npm:load:logFile Completed in 13ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 62ms
+30 timing config:load:flatten Completed in 1ms
+31 timing arborist:ctor Completed in 1ms
+32 timing idealTree:init Completed in 10ms
+33 timing idealTree:userRequests Completed in 6ms
+34 silly idealTree buildDeps
+35 silly fetch manifest cross-env@5.2.1
+36 silly logfile done cleaning log files
+37 http fetch GET 200 https://registry.npmjs.org/cross-env 149ms (cache miss)
+38 silly placeDep ROOT cross-env@5.2.1 OK for:  want: 5.2.1
+39 silly fetch manifest cross-spawn@^6.0.5
+40 http fetch GET 200 https://registry.npmjs.org/cross-spawn 20ms (cache hit)
+41 timing idealTree:#root Completed in 187ms
+42 silly placeDep node_modules/cross-env cross-spawn@6.0.5 OK for: cross-env@5.2.1 want: ^6.0.5
+43 silly fetch manifest nice-try@^1.0.4
+44 silly fetch manifest path-key@^2.0.1
+45 silly fetch manifest semver@^5.5.0
+46 silly fetch manifest shebang-command@^1.2.0
+47 silly fetch manifest which@^1.2.9
+48 http fetch GET 200 https://registry.npmjs.org/path-key 19ms (cache hit)
+49 http fetch GET 200 https://registry.npmjs.org/shebang-command 18ms (cache hit)
+50 http fetch GET 200 https://registry.npmjs.org/nice-try 22ms (cache hit)
+51 http fetch GET 200 https://registry.npmjs.org/semver 21ms (cache hit)
+52 http fetch GET 200 https://registry.npmjs.org/which 22ms (cache hit)
+53 timing idealTree:node_modules/cross-env Completed in 32ms
+54 silly placeDep node_modules/cross-env nice-try@1.0.5 OK for: cross-spawn@6.0.5 want: ^1.0.4
+55 silly placeDep node_modules/cross-env path-key@2.0.1 OK for: cross-spawn@6.0.5 want: ^2.0.1
+56 silly placeDep node_modules/cross-env semver@5.7.2 OK for: cross-spawn@6.0.5 want: ^5.5.0
+57 silly placeDep node_modules/cross-env shebang-command@1.2.0 OK for: cross-spawn@6.0.5 want: ^1.2.0
+58 silly fetch manifest shebang-regex@^1.0.0
+59 silly placeDep node_modules/cross-env which@1.3.1 OK for: cross-spawn@6.0.5 want: ^1.2.9
+60 silly fetch manifest isexe@^2.0.0
+61 http fetch GET 200 https://registry.npmjs.org/isexe 13ms (cache hit)
+62 http fetch GET 200 https://registry.npmjs.org/shebang-regex 19ms (cache hit)
+63 timing idealTree:node_modules/cross-env/node_modules/cross-spawn Completed in 29ms
+64 timing idealTree:node_modules/cross-env/node_modules/nice-try Completed in 0ms
+65 timing idealTree:node_modules/cross-env/node_modules/path-key Completed in 0ms
+66 timing idealTree:node_modules/cross-env/node_modules/semver Completed in 0ms
+67 silly placeDep node_modules/cross-env shebang-regex@1.0.0 OK for: shebang-command@1.2.0 want: ^1.0.0
+68 timing idealTree:node_modules/cross-env/node_modules/shebang-command Completed in 2ms
+69 timing idealTree:node_modules/cross-env/node_modules/shebang-regex Completed in 0ms
+70 silly placeDep node_modules/cross-env isexe@2.0.0 OK for: which@1.3.1 want: ^2.0.0
+71 timing idealTree:node_modules/cross-env/node_modules/which Completed in 3ms
+72 timing idealTree:node_modules/cross-env/node_modules/isexe Completed in 0ms
+73 timing idealTree:buildDeps Completed in 256ms
+74 timing idealTree:fixDepFlags Completed in 1ms
+75 timing idealTree Completed in 276ms
+76 timing reify:loadTrees Completed in 280ms
+77 timing reify:diffTrees Completed in 2ms
+78 silly reify moves {}
+79 timing reify:retireShallow Completed in 1ms
+80 timing reify:createSparse Completed in 1ms
+81 timing reify:loadBundles Completed in 0ms
+82 silly tarball no local data for cross-env@https://registry.npmjs.org/cross-env/-/cross-env-5.2.1.tgz. Extracting by manifest.
+83 timing reifyNode:node_modules/cross-env/node_modules/shebang-regex Completed in 69ms
+84 timing reifyNode:node_modules/cross-env/node_modules/shebang-command Completed in 70ms
+85 timing reifyNode:node_modules/cross-env/node_modules/path-key Completed in 70ms
+86 timing reifyNode:node_modules/cross-env/node_modules/nice-try Completed in 72ms
+87 timing reifyNode:node_modules/cross-env/node_modules/which Completed in 74ms
+88 timing reifyNode:node_modules/cross-env/node_modules/isexe Completed in 76ms
+89 timing reifyNode:node_modules/cross-env/node_modules/cross-spawn Completed in 77ms
+90 timing reifyNode:node_modules/cross-env/node_modules/semver Completed in 77ms
+91 http fetch GET 200 https://registry.npmjs.org/cross-env/-/cross-env-5.2.1.tgz 69ms (cache miss)
+92 timing reifyNode:node_modules/cross-env Completed in 85ms
+93 timing reify:unpack Completed in 85ms
+94 timing reify:unretire Completed in 0ms
+95 timing build:queue Completed in 2ms
+96 timing build:link:node_modules/cross-env/node_modules/semver Completed in 4ms
+97 timing build:link:node_modules/cross-env Completed in 7ms
+98 timing build:link:node_modules/cross-env/node_modules/which Completed in 5ms
+99 timing build:link Completed in 7ms
+100 timing build:deps Completed in 11ms
+101 timing build Completed in 11ms
+102 timing reify:build Completed in 12ms
+103 timing reify:trash Completed in 0ms
+104 timing reify Completed in 404ms
+105 silly ADD node_modules/cross-env
+106 silly ADD node_modules/cross-env/node_modules/isexe
+107 silly ADD node_modules/cross-env/node_modules/shebang-regex
+108 silly ADD node_modules/cross-env/node_modules/which
+109 silly ADD node_modules/cross-env/node_modules/shebang-command
+110 silly ADD node_modules/cross-env/node_modules/semver
+111 silly ADD node_modules/cross-env/node_modules/path-key
+112 silly ADD node_modules/cross-env/node_modules/nice-try
+113 silly ADD node_modules/cross-env/node_modules/cross-spawn
+114 timing command:install Completed in 413ms
+115 verbose exit 0
+116 timing npm Completed in 728ms
+117 info ok
